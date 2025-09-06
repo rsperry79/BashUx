@@ -1,0 +1,27 @@
+{
+  "recommendations": [
+    "timonwong.shellcheck",
+    "truman.autocomplate-shell",
+    "pinage404.bash-extension-pack",
+    "alexr00.formatallfilesinworkspace",
+    "irongeek.vscode-env",
+    "remisa.shellman",
+    "gydunhn.vsc-essentials-core",
+    "editorconfig.editorconfig",
+    "davidanson.vscode-markdownlint",
+    "streetsidesoftware.code-spell-checker",
+    "gruntfuggly.todo-tree",
+    "john681611.relativepath",
+    "oderwat.indent-rainbow",
+    "ibm.output-colorizer",
+    "christian-kohler.path-intellisense",
+    "jakob101.relativepath",
+    "rpinski.shebang-snippets",
+    "foxundermoon.shell-format",
+    "aaron-bond.better-comments",
+    "yzhang.markdown-all-in-one",
+    "rogalmic.bash-debug",
+    "mads-hartmann.bash-ide-vscode",
+    "woozy-masta.shell-script-ide"
+  ]
+}

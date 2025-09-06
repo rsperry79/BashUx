@@ -1,0 +1,7 @@
+# files
+*.log
+*.txt
+
+# dirs
+test/logs
+to_use

@@ -1,0 +1,15 @@
+# ShellCheck: Global Rules
+#------------------------------------------------------------------------------
+ 
+# Disable warning for arithmetic expressions that could be simplified
+disable=SC2004
+
+# Allow opening any 'source'd file, even if not specified as input
+external-sources=true
+
+# Turn on warnings for unquoted variables with safe values
+enable=quote-safe-variables
+
+# Turn on warnings for unassigned uppercase variables
+enable=check-unassigned-uppercase
+

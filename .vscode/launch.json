@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    // test-bash.sh
+    {
+      "type": "bashdb",
+      "terminalKind": "integrated",
+      "request": "launch",
+      "name": "test-bash",
+      "cwd": "${workspaceFolder}/",
+      "program": "${workspaceFolder}/test/test-bash.sh",
+      "args": []
+    },
+    // test-sh.sh
+    {
+      "type": "bashdb",
+      "terminalKind": "integrated",
+      "request": "launch",
+      "name": "test-sh",
+      "cwd": "${workspaceFolder}/",
+      "program": "${workspaceFolder}/test/test-sh.sh",
+      "args": []
+    }
+  ]
+}

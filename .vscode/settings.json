@@ -1,0 +1,83 @@
+{
+  "remote.SSH.remoteServerListenOnSocket": true,
+  "skipFiles": ["~/.vscode-server/**/*"],
+  "cSpell.ignorePaths": [
+    "lint",
+    "src/templates/defaults",
+    ".vscode",
+    "lockdown.config"
+  ],
+  "editor.defaultFormatter": "foxundermoon.shell-format",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.shellcheck": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "formattingToggle.affects": [
+    "editor.formatOnPaste",
+    "editor.formatOnSave",
+    "editor.formatOnType"
+  ],
+  "shellcheck.enable": true,
+  "shellcheck.enableQuickFix": true,
+  "shellcheck.run": "onSave",
+  "shellcheck.executablePath": "", // Priority: user defined > bundled shellcheck binary > "shellcheck"
+  "shellcheck.exclude": [],
+  "shellcheck.customArgs": [],
+  "shellcheck.ignorePatterns": {
+    "**/*.csh": true,
+    "**/*.cshrc": true,
+    "**/*.fish": true,
+    "**/*.login": true,
+    "**/*.logout": true,
+    "**/*.tcsh": true,
+    "**/*.tcshrc": true,
+    "**/*.xonshrc": true,
+    "**/*.xsh": true,
+    "**/*.zsh": true,
+    "**/*.zshrc": true,
+    "**/zshrc": true,
+    "**/*.zprofile": true,
+    "**/zprofile": true,
+    "**/*.zlogin": true,
+    "**/zlogin": true,
+    "**/*.zlogout": true,
+    "**/zlogout": true,
+    "**/*.zshenv": true,
+    "**/zshenv": true,
+    "**/*.zsh-theme": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "[shellscript]": {
+    "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "actbutton",
+    "actcheckbox",
+    "actlistbox",
+    "actsellistbox",
+    "acttextbox",
+    "backtitle",
+    "compactbutton",
+    "defaultno",
+    "disentry",
+    "emptyscale",
+    "fullscale",
+    "inputbox",
+    "lightgray",
+    "mkfifo",
+    "msgbox",
+    "passwordbox",
+    "radiolist",
+    "readvar",
+    "roottext",
+    "SUBSHELL",
+    "UEFI"
+  ]
+}
