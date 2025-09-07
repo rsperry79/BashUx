@@ -11,7 +11,7 @@
       "request": "launch",
       "name": "test-bash",
       "cwd": "${workspaceFolder}/",
-      "program": "${workspaceFolder}/test/test-bash.sh",
+      "program": "${workspaceFolder}/test/test-bash-logger.sh",
       "args": []
     },
     // test-sh.sh
@@ -21,7 +21,7 @@
       "request": "launch",
       "name": "test-sh",
       "cwd": "${workspaceFolder}/",
-      "program": "${workspaceFolder}/test/test-sh.sh",
+      "program": "${workspaceFolder}/test/test-sh-logger.sh",
       "args": []
     }
   ]

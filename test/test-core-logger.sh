@@ -1,4 +1,4 @@
-#!/bin/sh -E
+#!/bin/sh
 
 ###########################################################################
 # Copyright (c) 2025 by Richard Sperry
@@ -6,8 +6,9 @@
 # Author: Richard Sperry <Richard@SperryFamily.net>
 ###########################################################################
 
-# shellcheck source="../src/logger/bash-logger.sh"
-. "src/logger/bash-logger.sh"
+# shellcheck source="../src/bash-ux-loader.sh"
+BASH_UX_BASE_DIR="src/"
+. "src/bash-ux-loader.sh"
 
 log_dir=
 setup() {

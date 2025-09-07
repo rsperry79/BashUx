@@ -176,30 +176,6 @@ LOG() {
 
 }
 
-LOGGER_DISPOSE() {
-    # Vars
-    unset LOGGER_DATE_FORMAT
-    unset LOGGER_NAME
-
-    # Log levels
-    unset LOGGER_MIN_LEVEL
-    unset LOGGER_CONSOLE_LEVEL
-    unset LOGGER_FILE_LEVEL
-    unset LOGGER_JSON_LEVEL
-    unset LOGGER_SYSLOG_LEVEL
-
-    # Enabled Loggers
-    unset LOGGER_ENABLE_FILE
-    unset LOGGER_ENABLE_SYSLOG
-    unset LOGGER_ENABLE_JSON
-    unset LOGGER_ENABLE_CONSOLE
-
-    # File Paths
-    unset LOGGER_LOG_PATH
-    unset LOGGER_LOG_FILE_PATH
-    unset LOGGER_LOG_JSON_PATH
-}
-
 #########################
 # INTERNAL COMMANDS
 #########################
@@ -387,4 +363,10 @@ _setup_log_path() {
 
     LOGGER_LOG_PATH="$(realpath "$log_path")"
     export LOGGER_LOG_PATH
+}
+
+# shellcheck disable=SC2329,SC2317 # disable not used warning, not reachable
+_shellcheck_vars() {
+    # Not called. for shellcheck in development
+    . "../../lint/logging/bash-logger.lint"
 }

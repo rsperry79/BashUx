@@ -9,7 +9,9 @@
 # shellcheck source="../src/logger/bash-logger.sh"
 source "src/logger/bash-logger.sh"
 
-source "test/test-core.sh"
+source "test/test-core-logger.sh"
+source "test/test-helpers.sh"
+
 log_dir="logs"
 
 run() {

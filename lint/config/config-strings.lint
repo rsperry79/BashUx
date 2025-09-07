@@ -1,0 +1,14 @@
+# Copyright (c) 2025 by Richard Sperry
+# Licensed under the terms of the GPL v3
+# Author: Richard Sperry <Richard@SperryFamily.net>
+
+# GET_CONFIG
+ui_get_config_title=$"Failed to get config"
+ui_get_config_message=($"Error: CONFIG_FILE and LIBS_DIR must be provided.")
+ui_get_config_failed_to_copy=($"Error: Failed to copy default configuration file.")
+
+# SET_CONFIG
+ui_set_config_title=$"Failed to set config"
+ui_set_config_write=($"Error: Failed to write setting.")
+ui_set_config_export=($"Error: Failed to export setting.")
+

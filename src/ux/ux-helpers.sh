@@ -145,6 +145,6 @@ SRC_EXIT() {
 # shellcheck disable=SC2329,SC2317 # disable not used warning, not reachable
 _shellcheck_vars() {
     # Not called. for shellcheck in development
-    source "../../lint/ux-helpers.lint"
-    source "../../lint/ux-strings.lint"
+    source "../../lint/base.lint"
+    source "../../lint/ux/ux-strings.lint"
 }

@@ -34,3 +34,13 @@ ui_reboot_uefi_prompt=$"Do you want to reboot into the BIOS to clear SecureBoot 
 
 # SRC_EXIT
 ui_src_exit_title=$"Script error"
+
+# SET_CONFIG
+ui_set_config_title=$"Failed to set config"
+ui_set_config_write=($"Error: Failed to write setting.")
+ui_set_config_export=($"Error: Failed to export setting.")
+
+# GET_CONFIG
+ui_get_config_title=$"Failed to get config"
+ui_get_config_message=($"Error: CONFIG_FILE and LIBS_DIR must be provided.")
+ui_get_config_failed_to_copy=($"Error: Failed to copy default configuration file.")

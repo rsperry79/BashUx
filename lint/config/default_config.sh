@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Copyright (c) 2025 by Richard Sperry
+# Licensed under the terms of the GPL v3
+# Author: Richard Sperry <Richard@SperryFamily.net>

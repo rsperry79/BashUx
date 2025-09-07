@@ -28,3 +28,9 @@ ui_reboot_uefi_prompt=$"Do you want to reboot into the BIOS to clear SecureBoot 
 
 # SRC_EXIT
 ui_src_exit_title=$"Script error"
+
+
+# SET_CONFIG
+ui_set_config_title=$"Failed to set config"
+ui_set_config_write=($"Error: Failed to write setting.")
+ui_set_config_export=($"Error: Failed to export setting.")
